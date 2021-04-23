@@ -11,6 +11,7 @@ public class AleatorioEmple {
 	}
 
 	public static void leer() throws IOException {
+	
 		System.out.println(" Segundo metodo de la clase");
 		File fichero = new File("AleatorioEmple.dat");
 		RandomAccessFile file = new RandomAccessFile(fichero, "r");
@@ -46,6 +47,7 @@ public class AleatorioEmple {
 	}// fin verporconsola
 
 	public static void crear() throws IOException {
+		System.out.println(" Tercer metodo de la clase");
 		File fichero = new File("AleatorioEmple.dat");
 		RandomAccessFile file = new RandomAccessFile(fichero, "rw");
 		String apellido[] = { "FERNANDEZ", "GIL", "LOPEZ", "RAMOS", "SEVILLA", "CASILLA", "REY" };
